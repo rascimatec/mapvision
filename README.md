@@ -2,10 +2,11 @@
 
 ## Objetivos
 <div style="text-align: justify"> 
-- Esse projeto consiste na utilização de 2 câmeras mono em 1 câmera stereo para ser implementada no I3E-D3 e fazer o mapeamento 3D - através do ROS (Robot Operating System).
-- Fazer o mapeamento 3D do Cimatec para navegação do I3E-D3.
-- Aprendizado de ROS dos voluntários da RAS no projeto.
-- Medir a distância de objetos com a câmera stereo.
+1- Esse projeto consiste na utilização de 2 câmeras mono em 1 câmera stereo para ser implementada no I3E-D3 e fazer o mapeamento 3D - através do ROS (Robot Operating System).<p>
+
+2 - Fazer o mapeamento 3D do Cimatec para navegação do I3E-D3.<p>
+3 - Aprendizado de ROS dos voluntários da RAS no projeto.<p>
+4 - Medir a distância de objetos com a câmera stereo.<p>
 </div>
 
 ## O que ocorrerá após o projeto ser finalizado
