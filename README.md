@@ -31,7 +31,7 @@ Not necessary.
 
 | Material |  Quantity  | Price(unit)    |
 |----------|------------|----------------|
-| Webcan   | 2          | 59,90          |
+| Webcam   | 2          | 59,90          |
 |          |            |                |
 |          |            |                |
 
