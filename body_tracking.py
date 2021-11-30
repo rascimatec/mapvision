@@ -3,7 +3,7 @@ import mediapipe as mp
 import time
 from math import trunc
 
-camera = cv2.VideoCapture(3)
+camera = cv2.VideoCapture(0)
 
 mpDraw = mp.solutions.drawing_utils
 mpHolistic = mp.solutions.holistic
