@@ -1,7 +1,7 @@
 import cv2
 import mediapipe as mp
 import time
-from math import trunc
+
 
 camera = cv2.VideoCapture(0)
 
