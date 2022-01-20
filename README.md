@@ -16,7 +16,7 @@ O projeto contém 3 pacotes:
 ### Pré-requisitos 
 Para conseguir rodar o map no seu computador você precisa ter um sistema operacional linux com o ROS Noetic instalado.
 
-### Repositório GitHub
+### Instalação
 Siga os seguintes comandos para instalar os pacotes do map no seu computador.
 
 ```
