@@ -13,7 +13,7 @@ O projeto contém 3 pacotes:
 - `3d_mapping` - Pacote desenvolvido para processar as imagens das duas câmeras e fazer um mapeamento 3D a partir delas.
 
 
-## Pré-requisitos 
+### Pré-requisitos 
 Para conseguir rodar o map no seu computador você precisa ter um sistema operacional linux com o ROS Noetic instalado.
 
 ### Repositório GitHub
@@ -25,6 +25,8 @@ $ cd ~/mapvision_ws/src
 $ git clone https://github.com/rascimatec/mapvision.git
 $ cd .. && catkin_make
 ``` 
+## Como utilizar o Map
+Aqui você irá encontrar como utilizar o mapvision e seus pacotes individualmente.
 
 ### Carregando os pacotes do Map
 Está fase ainda está em desenvolvimento.
