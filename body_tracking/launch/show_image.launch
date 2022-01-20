@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="rviz_config" default="$(find body_tracking)/rviz/show_image.rviz"/>
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rviz_config)" output="screen"/>
+    <node name="init_camera" pkg="body_tracking" type="init_camera.py" output="screen"/>
+
+</launch>
