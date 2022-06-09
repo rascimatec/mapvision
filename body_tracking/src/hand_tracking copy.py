@@ -1,9 +1,7 @@
 import cv2
 import mediapipe as mp
 
-
 camera = cv2.VideoCapture('/dev/video2')
-# Mudança aqui
 
 ##  Importa as ferramentas de desenho, responsáveis por traçar as linhas entre os pontos do corpo
 mpDraw = mp.solutions.drawing_utils
@@ -100,11 +98,9 @@ while camera.isOpened():
         landmark_list.clear()
         landmark_list.append(results.pose_landmarks)
 
-        # Poselms = landmark_list
         ##  Navega na lista onde estão as coordenadas dos pontos
-        for Poselms in landmark_list:
+        for Poselms in list:
             for id, lm in enumerate(Poselms.landmark):
-                print(type(Poselms))
 
                 ##  As coordenadas dos são dadas em decimal, um valor que corresponde a uma proporção da imagem mostrada na tela
                 ##  Portanto é necessário obter o tamanho do vídeo (altura e largura) e multiplicar as coordenadas x pela largura e as y pela altura para obter o valor em pixels

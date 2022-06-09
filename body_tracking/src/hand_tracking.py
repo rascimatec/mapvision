@@ -1,7 +1,7 @@
 import cv2
 import mediapipe as mp
 
-camera = cv2.VideoCapture(3)
+camera = cv2.VideoCapture('/dev/video2')
 
 ##  Importa as ferramentas responsáveis por realizar a detecção das mãos
 mpHands = mp.solutions.hands
